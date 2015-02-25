@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDM language="fr-FR">
+	<orgUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" language="fr-FR">
+    <orgUnitID>0350936C</orgUnitID>
+    <orgUnitName>
+      <text>UNIVERSITE DE RENNES 1</text>
+    </orgUnitName>
+    <orgUnitAcronym>RENNES 1</orgUnitAcronym>
+    <orgUnitKind orgType="universite"/>
+    <webLink>
+      <href>http://www.univ-rennes1.fr</href>
+      <linkName>Site officiel</linkName>
+    </webLink>
+    <orgUnitDescription/>
+    <contacts>
+      <contactData>
+	<contactName>
+	  <text>Université de Rennes 1</text>
+	</contactName>
+	<adr>
+	  <extadr> Adresse univ renne1</extadr>
+	</adr>
+	<telephone> 0000000000 </telephone>
+      </contactData>
+    </contacts>
+  </orgUnit>
+  <program xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="PR_I2001281" ident="PR_I2001281" userDefined="encours">
+   <programID>PR_I2001281</programID>
+    <programName>
+      <text>Diplôme d'ingénieur de l'ENSSAT spécialité logiciel et système informatique</text>
+    </programName>
+   <programCode codeSet="domaineDiplome">dol-ST</programCode>
+    <webLink>
+      <href>http://www.enssat.fr/</href>
+      <linkName>Site web de la formation</linkName>
+    </webLink>
+   <programDescription>
+      <subBlock userDefined="0">La spécialité Logiciel et Système Informatique (LSI)</subBlock>
+    </programDescription>
+    <qualification>
+		<qualificationName>
+	<text>Diplôme d'ingénieur de l'ENSSAT spécialité logiciel et système informatique</text>
+      </qualificationName>
+      <qualificationDescription>
+	<subBlock userDefined="0">L'étudiant(e) est capable de : </subBlock>
+	<subBlock userDefined="1">faire des choses </subBlock>
+      </qualificationDescription>
+<credits ECTScredits="180">180</credits>
+	<degree xmlns:cdm="http://cdm-fr.fr/2006/CDM-frSchema/" degree=""/>
+	<profession>
+	<subBlock userDefined="0">En France, le titre d'ingénieur fait l'objet d'une habilitation nationale régulière par la Commission des Titres d'Ingenieur (CTI). Conformément à cette habilitation, les diplômes Enssat peuvent exercer le métier d'ingénieur dès l'obtention de leur diplôme.</subBlock>
+	<subBlock userDefined="0">Des débouchés classiques pour le diplôme LSI sont l'étude et le développement d'applications informatiques complexes, ou l'administration de systèmes informatiques.</subBlock>
+	<subBlock userDefined="0"></subBlock>
+	</profession>
+	<studyQualification>
+	<subBlock userDefined="1"> Doctorat </subBlock>
+	<subBlock userDefined="1"> Mastère spécialisé pour ingénieur</subBlock>
+	</studyQualification>
+	</qualification>
+    <level/>
+    <learningObjectives>
+      <subBlock userDefined="0">La spécialité Logiciel et Système Informatique (LSI) garantit les fondamentaux de la profession d'ingénieur informaticien</subBlock>
+    </learningObjectives>
+    <formalPrerequisites>
+      <subBlock userDefined="0">Validation pour une admission en 1ere annee</subBlock>
+      <subBlock userDefined="1"> Concours Classes Préparatoires aux grandes écoles </subBlock>
+      <subBlock userDefined="1"> ou Diplôme Universitaire de Technologie </subBlock>
+      <subBlock userDefined="0"/>
+    </formalPrerequisites>
+    <teachingPlace>
+      <adr>
+	<extadr>adresse enssat</extadr>
+	<street>rue enssat</street>
+	<locality>LANNION</locality>
+	<region/>
+	<pcode>22305</pcode>
+	<country>FRANCE</country>
+      </adr>
+    </teachingPlace>
+    <infoBlock userDefined="cmp">920</infoBlock>
+    <programStructure>
+      <header>Découpage par année</header>
+      <refProgram idRef="PR_I20013281" ref="PR_I20013281"/>
+    </programStructure>
+    <subProgram id="PR_I20013281" ident="PR_I20013281">
+      <programID>PR_I20013281</programID>
+      <programName>
+	<text>3ème année</text>
+      </programName>
+      <teachingPlace>
+	<adr>
+	  <street>rue enssat</street>
+	  <locality>LANNION</locality>
+	  <pcode>22305</pcode>
+	</adr>
+      </teachingPlace>
+      <programDuration>Annee</programDuration>
+      <programStructure>
+	<header>Découpage par semestre</header>
+	<subBlock>
+	  <refCourse idRef="CO_TL5CLASB" ref="CO_TL5CLASB"/>
+	</subBlock>
+      </programStructure>
+    </subProgram>
+<searchword>INFO</searchword>
+    <searchword>INGENIEUR</searchword>
+  </program><course xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CO_TL5CLASB" ident="CO_TL5CLASB">
+    <courseName>
+      <text>Parcours classique à l'ENSSAT</text>
+    </courseName>
+    <courseCode codeSet="natureUE-EC">TL5CLASB</courseCode>
+    <courseDescription>
+      <subBlock userDefined="0">Ce choix de 3ème année correspond à des enseignements à l'ENSSAT et une expérience pré-professionnelle.</subBlock>
+      <subBlock userDefined="courseStructure">
+	<refCourse idRef="CO_TL5UCB" ref="CO_TL5UCB"/>
+      </subBlock>
+    </courseDescription>
+    <level>3</level>
+    <teachingPlace>
+      <adr>
+	<extadr>addr enssat </extadr>
+	<street>rue enssat</street>
+	<locality>LANNION</locality>
+	<region/>
+	<pcode>22305</pcode>
+	<country>FRANCE</country>
+      </adr>
+    </teachingPlace>
+  </course>
+  <course xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CO_TL5UCB" ident="CO_TL5UCB">
+    <courseName>
+      <text>Unités de compétences</text>
+    </courseName>
+    <courseCode codeSet="natureUE-EC">TL5UCB</courseCode>
+    <courseDescription>
+      <subBlock userDefined="courseStructure">
+	<refCourse idRef="CO_TL5GLAU" ref="CO_TL5GLAU"/>
+      </subBlock>
+    </courseDescription>
+    <level>3</level>
+    <teachingPlace>
+      <adr>
+	<extadr>addr enssat </extadr>
+	<street>rue enssat</street>
+	<locality>LANNION</locality>
+	<region/>
+	<pcode>22305</pcode>
+	<country>FRANCE</country>
+      </adr>
+    </teachingPlace>
+  </course>
+  <course xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CO_TL5GLAU" ident="CO_TL5GLAU">
+    <courseName>
+      <text>Génie logiciel avancé</text>
+    </courseName>
+    <courseCode codeSet="natureUE-EC">TL5GLAU</courseCode>
+    <courseDescription>
+      <subBlock userDefined="courseStructure">
+	<refCourse idRef="CO_TL5DLCM" ref="CO_TL5DLCM"/>
+      </subBlock>
+    </courseDescription>
+    <level>3</level>
+    <credits ECTScredits="4.5"/>
+    <teachingPlace>
+      <adr>
+	<extadr>addr enssat </extadr>
+	<street>rue enssat</street>
+	<locality>LANNION</locality>
+	<region/>
+	<pcode>22305</pcode>
+	<country>FRANCE</country>
+      </adr>
+    </teachingPlace>
+  </course>
+  <course xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="CO_TL5DLCM" ident="CO_TL5DLCM">
+    <courseName>
+      <text>Développement de logiciel contraint</text>
+    </courseName>
+    <courseCode codeSet="natureUE-EC">TL5DLCM</courseCode>
+    <courseDescription>
+      <subBlock userDefined="0">Module non programmé </subBlock>
+      <subBlock userDefined="0">Têtes de chapitre</subBlock>
+      <subBlock userDefined="courseStructure"/>
+    </courseDescription>
+    <level>3</level>
+    <teachingTerm/>
+    <credits ECTScredits="1.5"/>
+    <learningObjectives>
+      <subBlock userDefined="0">Objectifs pédagogiques</subBlock>
+          </learningObjectives>
+    <recommendedPrerequisites/>
+    <teachingPlace>
+      <adr>
+        <extadr>addr enssat </extadr>
+        <street>rue enssat</street>
+        <locality>LANNION</locality>
+        <region/>
+        <pcode>22305</pcode>
+        <country>FRANCE</country>
+      </adr>
+    </teachingPlace>
+    <teachingActivity>
+      <infoBlock>
+        <subBlock userDefined="volumeHoraireCM">12</subBlock>
+        <subBlock userDefined="volumeHoraireTd">8</subBlock>
+        <subBlock userDefined="heuresEncadrees">20.0</subBlock>
+      </infoBlock>
+    </teachingActivity>
+  </course>
+</CDM>
